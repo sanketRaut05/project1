@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: #e5e5fd;
+    border: 10px solid #1d1e4c;
+}
+.content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.headsec{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.img img{
+    height: 210px;
+    width: 200px;
+}
+.img{
+    border-radius: 100px;
+    overflow: hidden;
+
+}
+.headsec h2{
+    font-size: 35px;
+    font-weight: 400;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+.headsec h4{
+    font-size: 20px;
+    text-align: end;
+}
+.aboutsec p{
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+.aboutsec h1{
+    margin: 30px;
+    font-size: 60px;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+.bio{
+    margin-top: 30px;
+}
+.bio ul{
+    padding-left: 40px;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1.0px;
+    text-align: justify;
+    list-style-type: circle;
+}
+footer p{
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1.0px;
+    text-align: justify;
+    text-align: end;
+    margin: 40px;
+}
